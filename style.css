@@ -1,0 +1,92 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: fantasy;
+    background-color: azure; 
+}
+
+.navigation{
+    display: flex; 
+    border:5px solid rgb(15, 219, 185);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background-color: rgb(231, 190, 8);
+    text-decoration:none;
+}
+
+
+.navigation li{
+    flex-direction: row;
+    list-style: none;
+    padding: 2px;
+    margin: 2px;
+    font-size: 175%;
+    text-decoration:none;
+}
+.meme section{
+    padding: 0;
+    margin:0;
+    justify-content: center;
+    text-align: center;
+}
+
+.review{ 
+    background-color: rgb(17, 190, 221);
+    padding:20px;
+    text-align: left;
+    border:solid 2px; 
+    margin:50px;
+    font-size: 250%;
+    }
+
+
+
+.description1{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    background-color: rgb(221, 218, 36);
+    font-size: 300%;
+    padding:10px; 
+    margin: 10px;
+}
+
+.description2{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    background-color: rgb(59, 213, 240);
+    font-size: 175%;
+    margin:5px;
+
+}
+
+.memevideos1{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.memevideos2{
+    display: flex;
+    flex-direction: column;
+    background-color: cornsilk;
+    margin: 10px;
+    text-align: center;
+    font-size: 150%;
+    width: 50%  ;
+}
+
+
+.outer {
+    display: flex;
+    flex-direction: column;
+}
+.Row {
+    display: flex;
+    flex-direction: row;
+}
